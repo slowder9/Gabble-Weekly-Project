@@ -1,0 +1,7 @@
+
+
+1. Start with schemas (models/)
+2. Pick one route and make that work (ideally one with a schema)
+	- views/ for everything that goes to the browser
+	- models/ for all database interactions
+	- routes/ for all express stuff

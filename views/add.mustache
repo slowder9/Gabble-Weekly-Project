@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Add a Gabble</title>
+  </head>
+
+<body>
+    <header>
+      <nav>
+        <a href="/home">
+          <button>Home</button>
+        </a>
+        <a href="/messages/new">
+          <button>Add a Gabble</button>
+        </a>
+
+        <form method="post" action="/users/logout">
+          <input type="submit" value="Log Out">
+        </form>
+      </nav>
+    </header>
+
+    <section>
+      <h1>Add a Gabble:</h1>
+      <form method="post" action="/messages/new">
+        <textarea name="newgabble">Type here.</textarea>
+        <input type="submit" value="Gabble">
+      </form>
+    </section>
+
+</body>
+</html>
